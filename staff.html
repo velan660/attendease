@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            staff login page
+        </title>
+    </head>
+    <body>
+        <div id="container">
+        <form>
+            <label for="username">ENTER THE USERNAME</label><br>
+            <input type="text" id="username" placeholder="username"><br>
+            <label for="password">ENTER THE PASSWORD</label><br>
+            <input type="text" id="password" placeholder="password"><br>
+            <button type="submit" id="submit">verify</button>
+        </form>
+        </div>
+        <style>
+            #container{
+                height:100vh;
+                width:100%;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+            }
+            form input{
+                margin-bottom:20px;
+                margin-top:10px;
+            }
+
+            #submit{
+                position:relative;
+                left:60px;
+            }
+            body{
+                background-color:#FF99FF;
+            }
+            form input{
+                border-color:#FF00FF;
+            }
+            #submit:hover{
+                background-color:#FF00FF;
+            }
+        </style>
+    </body>
+</html>
